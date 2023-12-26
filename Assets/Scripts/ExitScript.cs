@@ -15,12 +15,12 @@ public class ExitScript : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape)) //Se durante o jogo a tecla "Esc" for apertada...
         {
-            QuitGame(); //... A funï¿½ï¿½o QuitGame ï¿½ chamada;
+            QuitGame(); //... A função QuitGame é chamada;
         }
     }
 
     void QuitGame()
     {
-        Application.Quit(); //Mï¿½todo Quit executado na aplicaï¿½ï¿½o irï¿½ interromper os processor e encerrar o aplicativo;
+        Application.Quit(); //Método Quit executado na aplicação irá interromper os processor e encerrar o aplicativo;
     }
 }
